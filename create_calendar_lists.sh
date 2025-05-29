@@ -7,6 +7,9 @@ source .env
 read -p "開始日を入力してください (形式: MM/DD): " START_DATE
 read -p "終了日を入力してください (形式: MM/DD): " END_DATE
 
+# TrelloのAPI URL
+API_URL="https://api.trello.com/1/lists"
+
 # 年を取得（現在の年を使用）
 YEAR=$(date +%Y)
 
